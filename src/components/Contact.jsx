@@ -33,9 +33,17 @@ const Contact = () => {
             title="let&#39;s b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
-
+          <a
+  href="https://forms.gle/v9GB7pPPDD5Hzx3a8"
+  className="inline-block mt-4 px-6 py-3 bg-blue-500 text-white rounded-full text-center hover:bg-blue-600 transition duration-300"
+  target="_blank"
+  rel="noopener noreferrer"
+>
           <Button title="Register Now" containerClass="mt-10 cursor-pointer" />
+          </a>
+
         </div>
+        
       </div>
     </div>
   );
