@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Animation for the moving light effect */
+@keyframes movingLight {
+    0% {
+      border-color: rgba(255, 255, 255, 0);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+    25% {
+      border-color: rgba(255, 255, 255, 0.4);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+    50% {
+      border-color: rgba(255, 255, 255, 0.6);
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+    }
+    75% {
+      border-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 1);
+    }
+    100% {
+      border-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 0 50px rgba(255, 255, 255, 1);
+    }
+  }
+  
+  /* Apply animation to the border */
+  .animate-moving-light {
+    animation: movingLight 3s infinite ease-in-out;
+  }
+  
