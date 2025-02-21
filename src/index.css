@@ -271,3 +271,13 @@ body {
     opacity: 0.8;
   }
 }
+/* Add this to your global CSS file (e.g., index.css or tailwind.css) */
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blinker 1.5s linear infinite;
+}
