@@ -35,7 +35,8 @@ const Footer = () => {
         </a>
 
 
-        <p className="text-white font-bold">Build With ❤️ amruth.exe</p>
+       
+
       </div>
     </footer>
   );
